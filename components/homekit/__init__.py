@@ -20,6 +20,7 @@ HAPAccessory = homekit_ns.class_('HAPAccessory', cg.Component)
 LightEntity = homekit_ns.class_('LightEntity')
 SensorEntity = homekit_ns.class_('SensorEntity')
 SwitchEntity = homekit_ns.class_('SwitchEntity')
+ClimateEntity = homekit_ns.class_('ClimateEntity')
 LockEntity = homekit_ns.class_('LockEntity')
 FanEntity = homekit_ns.class_('FanEntity')
 OnHkSuccessTrigger = homekit_ns.class_(
